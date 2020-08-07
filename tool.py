@@ -15,7 +15,7 @@
 # https://boto3.amazonaws.com/v1/documentation/api/latest/guide/migrationec2.html#launching-new-instances
 #ami id : ami-0a63f96e85105c6d3
 
-import boto
+import boto3
 
 def connecttomyaccount():
     print("connecting to my account")
